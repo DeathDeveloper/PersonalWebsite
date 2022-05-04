@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  background: white;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-colour:#00acee;
+}
+
+.left-part {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  float: left;
+  width: 350px;
+}
+
+.left-part ul {
+  list-style-type: none;
+}
+
+.left-part li {
+  margin: .5em .5em 2em .5em;
+}
+
+.left-part a {
+  font-size: 20px;
+  color: black;
+}
+
+.left-part .explore {
+  font-weight: 600;
+}
+
+.left-part .tweet-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.left-part .hash-set {
+  height: 30px;
+  width: 30px;
+}
+
+header .search {
+  width: 20px;
+}
+
+header .setting {
+  width: 20px;
+}
+
+main {
+  border: 1px solid #e4e4e4;
+  margin-left: 350px;
+  margin-right: 390px;
+}
+
+.right-part {
+  float: right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  padding: .5em;
+  margin: 0;
+}
+
+.right-part .login-signup {
+  border: 1px solid #e4e4e4;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.right-part .login-signup p {
+  color: #7c7c7c;
+  font-size: 14px;
+}
+
+.right-part .login-signup h2 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.right-part .login-signup a {
+  color: var(--primary-colour);
+}
+
+.right-part .login-signup button {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+  border-color: #e4e4e4;
+  border-style: solid;
+  height: 50px;
+  margin: .25em;
+  width: 90%;
+}
+
+.right-part .login-signup button span {
+  font-size: 15.5px;
+}
+
+.right-part .foot {
+  margin: 1em;
+}
+
+.right-part .foot a {
+  color: #696969;
+  margin: .75em;
+}
+
+.right-part .foot p {
+  color: #696969;
+  font-size: 14px;
+}
+
+footer {
+  background-color: var(--primary-colour);
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+  padding: .5em;
+  margin: 0;
+}
+
+footer h2 {
+  position: relative;
+  left: 300px;
+  margin: 0;
+}
+
+footer p {
+  font-size: 17px;
+  position: relative;
+  left: 300px;
+  margin: 0;
+}
+
+footer a {
+  margin: .5em;
+}
+
+footer span {
+  float: right;
+  position: relative;
+  bottom: 1em;
+  right: 1em;
+}
+
+footer .login {
+  color: white;
+  border: .5px solid white;
+  padding: .5em .75em .5em .75em;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+footer .signup {
+  color: black;
+  border: .5px solid white;
+  background-color: white;
+  padding: .5em .75em .5em .75em;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=main.css.map */

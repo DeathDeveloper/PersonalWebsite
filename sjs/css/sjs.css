@@ -1,0 +1,214 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+.h1
+{
+	background-color:  #ba4a00 ;
+	height: 40px;
+	margin: 0;
+	padding: ;
+}
+.top{
+	padding-left: 90px;
+     position: relative;
+     top: 7px;
+    font-size: 14px;
+    color: white;
+	font-family: sans-serif;
+}
+.parent
+{
+	position: relative;
+	top: 7px;
+	padding-right: 60px;
+	float: right;
+	font-weight: 9px;
+}
+.h2{
+	padding: 20px 60px 20px 60px;
+}
+.floatright{
+	border-radius: 50%;
+	float: right;
+	filter: saturate(200%);
+	padding-right: 20px;
+	background: transparent;
+	border-color: transparent;
+}
+.h3
+{
+   background-color: gray;
+   text-align: center;
+   height: 50px;
+   padding: 7px;
+   font-size: 18px;
+}
+.h33
+{
+	position: relative;
+	top: 7px;
+	background: transparent;
+	border: transparent;
+	padding: 0 10px 0 0;
+}
+video
+{/*
+	writing-mode: horizontal-tb;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
+   direction: ltr;
+   Prevent unwanted style inheritance. See bug 554717. */
+  /*
+  text-align: left;
+  list-style-image: none !important;
+  font: normal normal normal 100%/normal sans-serif !important;
+  text-decoration: none !important;
+  white-space: normal !important;*/
+
+}
+.h5
+{
+	text-align: center;
+	background-color: #a6acaf;
+	height: 80px;
+	width: 100%;
+	margin-top: 12px;
+}
+.h55
+{
+	background: transparent;
+	border: transparent;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	border-radius: 30px;
+	position: relative;
+	bottom: 7px;
+}
+h1
+{
+	padding-top: 60px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 38px;
+	font-weight: 700;
+}
+.Welcome
+{
+	text-align: center;
+}
+.yellow
+{
+	color: #fecc00;
+}
+
+.h7
+{
+	display: inline;
+	text-align: center;
+}
+.zindex1
+{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}.princiipal
+{
+	border: solid 1px orange; 
+	padding: 40px 800px 80px 100px ;
+	background-color: orange;
+	filter: opacity(50%);
+	position: relative;
+	top : 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.zindex2
+{
+	z-index: 1;
+}
+li
+{
+	list-style: none;
+	font-size: 14px;
+}
+/*
+.one{
+	position: relative;
+	right: 0px;
+	border: solid 1px white;
+	height: auto;
+	width: 300px;
+}
+
+.two{
+	position: relative;
+	top: 16px;
+	justify-content: center;
+	border: solid 1px white;
+	height: 200px;o
+	width: 400px;
+}
+.three
+{
+	position: relative;
+	right: 0;
+	border: solid 1px yellow;
+	height: auto;
+	width: fit-content;
+}
+*/
+
+.footer
+{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.three{
+
+	width: 350px;
+	height: 130px;
+}
+.one{
+width: 300px;
+height: 200px;
+}
+.two
+{
+	width: 600px;
+}
+hr{
+	color: yellow;
+}
+.footer1
+{
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

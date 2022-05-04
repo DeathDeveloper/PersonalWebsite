@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+body
+{
+	padding: 40px 60px 40px 60px;
+	background-color: #fafafa;
+}
+.header{
+	display: flex;
+	justify-content: space-between 0px;
+	justify-items: space-between 0px;
+    padding-left: 80px;
+	margin: 0px;
+}
+.h2
+{
+	border: solid 1px lightgray ;
+	text-align: center;
+	width: 360px;
+	height: 450px;
+	background-color: #ffffff;
+}
+input
+{
+	width: 290px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: solid lightgray 1px;
+	font-size: 14px;
+	background-color: #fafafa;
+}
+button{
+	width: 295px;
+	height: 35px;
+	margin-top: 10px;
+	background-color: #24a0ed;
+	border-radius: 5px;
+	border-color: transparent;
+	margin-bottom: 20px;
+	filter: opacity(60%);
+}
+.login
+{
+	color: white;
+}
+hr{
+	color: lightgray;
+}
+.one
+{
+	display: flex;
+	justify-content: center;
+}
+.child1
+{
+	padding-right: 15px;
+	width: 120px;
+}
+.child3
+{
+	padding-left: 15px;
+	width: 120px;
+}
+.flex
+{
+	margin: 20px;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.h3{
+	margin-top: 20px;
+	border: solid lightgray 1px;
+	width: 360px;
+	background-color: white;
+}
+.h4{
+	margin-top: 20px
+	border: solid  1px;
+	width: 360px;
+}
+.facebook{
+	color: #3b5998;
+}
+.peacock
+{
+	font-size: 13px;
+}
+a{
+	text-decoration: none;
+}
+.footer
+{
+	display: flex;
+	justify-content: center;
+	color: gray;
+	font-size: 14px;
+	width: 70%;
+	word-spacing: 20px;
+	position: relative;
+    left: 180px;
+    text-align: center;
+}
+.blue
+{
+	color: #24a0ed;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.gray
+{
+	color: gray;
+}
+.white
+{
+	color: white;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+body
+{
+	background-color:  #ebf4f2 ;
+	display: flex;
+	justify-content: space-around;
+}
+.h1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    padding-top: 120px;
+}
+.font
+{
+	
+font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+font-size: 28px;
+font-weight: normal;
+line-height: 32px;
+width: 500px;
+}
+.right
+{
+	background-color: white;
+    width: 370px;
+	text-align: center;
+	border: solid 1px whitesmoke;
+	border-radius: 9px;	
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	height: 300px;
+}
+.rright
+{
+	padding-left: 0px;
+	border-radius: 9px;	
+}
+input
+{
+	height: 50px;
+	width: 90%;
+	margin-bottom: 10px;
+}
+button
+{
+	height: 50px;
+	background-color: #1877f2;
+	border-color: transparent;
+	border-radius: 7px;
+	color: white;
+	width: 95%;
+}
+.left
+{
+	padding-right: 45px;
+	position: relative;
+	top: 80px;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.green
+{
+	background-color: #42b72a;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	border-radius: 7px;
+	background-color: #58CD36;
+	border-color: transparent;
+	color: white;
+	font-size: 18px;
+	padding: 0px;
+}
+.img
+{
+	margin: 0px;
+	height: 120px; 
+	width: 230px;
+}
+hr
+{
+	color:   #ebebeb ;
+	width: 95%;
+	size: 20px;
+}
+.login
+{
+	font-size: 22px;
+}
+a
+{
+	color: darkcyan;
+	text-decoration: none;
+}
