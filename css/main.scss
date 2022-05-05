@@ -1,12 +1,14 @@
-
-body{
-    margin: 0;
-}
 :root{
-    --colour-1:#00203FFF;
-    --colour-2:#ADEFD1FF;
-    --colour-3:#e7fdf4;
+    --colour-1:#2C5F2D;
+    --colour-2:#97BC62FF;
+    --colour-3:rgb(216, 255, 162);
+    --colour-4:rgb(105, 182, 218);
+    --colour-bg: darkgreen;
 }
+body{
+    margin: 0;background-color: var(--colour-bg);
+}
+
 main,footer,.top{margin: .5em .2em 1em .2em;}
 .top{
     padding: 1em;
@@ -25,7 +27,7 @@ main,footer,.top{margin: .5em .2em 1em .2em;}
 main{
     background-color:var(--colour-3) ;
     color: var(--colour-1);
-    a{text-decoration: none; color: saddlebrown;}
+    a{text-decoration: none; color: var(--colour-4);}
     li{list-style-type: circle;
     }
     .greet{font-size: 3em; font-weight: bolder; text-align: center;}
