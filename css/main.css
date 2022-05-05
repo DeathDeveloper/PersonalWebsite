@@ -1,11 +1,14 @@
-body {
-  margin: 0;
+:root {
+  --colour-1:#2C5F2D;
+  --colour-2:#97BC62FF;
+  --colour-3:rgb(216, 255, 162);
+  --colour-4:rgb(105, 182, 218);
+  --colour-bg: darkgreen;
 }
 
-:root {
-  --colour-1:#00203FFF;
-  --colour-2:#ADEFD1FF;
-  --colour-3:#e7fdf4;
+body {
+  margin: 0;
+  background-color: var(--colour-bg);
 }
 
 main, footer, .top {
@@ -40,7 +43,7 @@ main {
 
 main a {
   text-decoration: none;
-  color: saddlebrown;
+  color: var(--colour-4);
 }
 
 main li {
